@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="geek">
+   <head>
+      <title>GeekCollections</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template-->
+      <link href="stylesheets/style.css" rel="stylesheet">
+      <link href="stylesheets/style-boot-strap.css" rel="stylesheet">
+   </head>
+   <body>
+
+      <!-- Include template of header -->
+      <div id="header" ng-include src="'partials/header.html'"></div>
+
+      <!-- block content -->
+      <ng-view></ng-view>
+
+      <!-- Include template of footer -->
+      <div ng-include src="'partials/footer.html'"></div>
+
+  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- Bootstrap core -->
+  <script type="text/javascript" src="vendors/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Angular.js core -->
+  <script type="text/javascript" src="vendors/angular/angular.min.js"></script>
+  <script type="text/javascript" src="vendors/angular-route/angular-route.min.js"></script>
+
+  <!-- Angular.js main -->
+  <script type="text/javascript" src="javascripts/angular/main.js"></script>
+  <script type="text/javascript" src="javascripts/angular/settings.js"></script>
+</html>
+

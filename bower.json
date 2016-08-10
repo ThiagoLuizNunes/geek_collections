@@ -1,0 +1,20 @@
+{
+  "name": "gtad_api",
+  "license": "ISC",
+  "private": true,
+  "authors": [
+    "Laércio <laerciosbezerra@gmail.com>",
+    "Thiago <thiagoluiznunes@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}

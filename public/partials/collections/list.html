@@ -1,0 +1,24 @@
+<div id="div-figures">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="novidades" class="">
+                    ACTION FIGURES
+                </h2>
+            </div>
+            <div id="div-produtos">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6  thumb" ng-repeat="vm in mvvm.statuses">
+                    <div class="produto">
+                        <a class="thumbnail" href="{{vm.link}}" target="">
+                            <img class="img-responsive" ng-src="{{vm.collection.source}}"}>
+                        </a>
+                        <a id="categoria">{{vm.collection.name}}</a>
+                        <h4 id="categoria">{{vm.collection.price}}</h4>
+                        <a href="#/statuses/{{vm.collection._id}}">SHOW</a>
+                        <a href="#/statuses/{{vm.collection._id}}/edit">EDIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

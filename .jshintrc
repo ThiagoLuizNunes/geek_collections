@@ -1,0 +1,14 @@
+{
+  "curly":     true,
+  "camelcase": true,
+  "eqeqeq":    true,
+  "noempty":   true,
+  "eqnull":    true,
+  "strict":    true,
+  "undef":     true,
+  "unused":    true,
+  "jasmine":   true,
+  "jquery":    true,
+  "mocha":     true,
+  "node":      true
+}
