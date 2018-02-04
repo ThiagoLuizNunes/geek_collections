@@ -1,4 +1,5 @@
-// Author - Laércio S Bezerra | laerciosouza@lavid.ufpb.br
+// Authors - Laércio S Bezerra | laerciosouza@lavid.ufpb.br
+//           Thiago Luiz Nunes | thiagoluiz.dev@gmail.com
 
 /* recommended */
 
@@ -31,8 +32,6 @@
 
     // load automatically listCollections.
     activate();
-
-    ////////////
 
     function activate() {
       return listCollections()
@@ -73,7 +72,6 @@
 
     // load automatically showCollection.
     activate();
-    ////////////
 
     function activate() {
       return showCollection()
@@ -108,8 +106,6 @@
 
     // calling others submit function.
     vm.submitCollection = newCollection;
-
-    ////////////
 
     // create a new collection.
     function newCollection() {
@@ -167,7 +163,6 @@
           return $location.path("/collections/" + response._id);
         });
     };
-
   };
 
 })();
