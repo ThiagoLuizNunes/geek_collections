@@ -1,4 +1,5 @@
-// Author - Laércio S Bezerra | laerciosouza@lavid.ufpb.br
+// Authors - Laércio S Bezerra | laerciosouza@lavid.ufpb.br
+//           Thiago Luiz Nunes | thiagoluiz.dev@gmail.com
 
 // collection.js
 angular
